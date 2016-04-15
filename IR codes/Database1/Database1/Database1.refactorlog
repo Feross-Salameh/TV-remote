@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="a7013c82-e203-482f-8298-58b838ddc4f3" ChangeDateTime="04/15/2016 00:43:09">
+    <Property Name="ElementName" Value="[dbo].[tbl_IR_commands].[Device]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_IR_commands]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Device_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d762f601-60fe-48b3-9b1d-edb161c1eeb9" ChangeDateTime="04/15/2016 00:52:50">
+    <Property Name="ElementName" Value="[dbo].[tbl_actions_list].[Action Group]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_actions_list]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="action" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6ef8f103-7ba1-48ce-930e-0806ef2b49bb" ChangeDateTime="04/15/2016 00:52:58">
+    <Property Name="ElementName" Value="[dbo].[tbl_actions_list].[action]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_actions_list]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="action_list" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3b73a908-6373-4d9e-bf74-93f9ef9b7677" ChangeDateTime="04/15/2016 01:10:27">
+    <Property Name="ElementName" Value="[dbo].[tbl_actions_list].[action_list]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_actions_list]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Action" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c138f161-acfe-4204-8af0-308a13b2ece1" ChangeDateTime="04/15/2016 01:10:44">
+    <Property Name="ElementName" Value="[dbo].[tbl_actions_list].[Device]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_actions_list]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Device_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8183734c-83b3-4be9-a962-03957ffdaf59" ChangeDateTime="04/15/2016 01:10:49">
+    <Property Name="ElementName" Value="[dbo].[tbl_actions_list].[Command]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_actions_list]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Command_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="440155c3-e78a-4614-8207-f1d4592adceb" ChangeDateTime="04/15/2016 01:10:54">
+    <Property Name="ElementName" Value="[dbo].[tbl_actions_list].[Action]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_actions_list]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Action_ID" />
+  </Operation>
+</Operations>
